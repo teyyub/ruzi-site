@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest #os
     steps:
     - name: Print host name
-      run: echo "Host $HOST_NAME"
+      run: echo "Host $ENV_NAME"
       env:
-          HOST_NAME: Earthly
+          ENV_NAME: Test ENV
     - name: Print homepage URL
       run: echo "Host https://$HOST_NAME.dev"
     - uses: actions/checkout@v2
