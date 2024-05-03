@@ -11,13 +11,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest #os
+    env:
+      ENV_NAME: Test ENV
     steps:
     - name: Print host name
       run: echo "Host $ENV_NAME"
-      env:
-          ENV_NAME: Test ENV
     - name: Print homepage URL
-      run: echo "Host https://$HOST_NAME.dev"
+      run: echo "Host https://$ENV_NAME.dev"
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0 # Fixes shallow update issue when pushing to heroku
