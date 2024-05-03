@@ -1,4 +1,5 @@
 name: my_ci_cd_workflow
+
 on:
   push:
     branches:
@@ -11,6 +12,12 @@ jobs:
   build:
     runs-on: ubuntu-latest #os
     steps:
+    - name: Print host name
+      run: echo "Host $HOST_NAME"
+      env:
+          HOST_NAME: Earthly
+    - name: Print homepage URL
+      run: echo "Host https://$HOST_NAME.dev"
     - uses: actions/checkout@v2
       with:
         fetch-depth: 0 # Fixes shallow update issue when pushing to heroku
@@ -18,8 +25,7 @@ jobs:
       with:
         node-version: '14'
     - name: npm install
-      run: |
-            npm install
+      run: npm install
     - name: npm build
       run: npm build --if-present
         # Build Docker image
