@@ -38,6 +38,8 @@ pm2 logs my-app
 # Stop the app
 pm2 stop my-site
 
+
+
 # Restart the app
 pm2 restart my-app
 
