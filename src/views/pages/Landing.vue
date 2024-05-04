@@ -24,7 +24,7 @@ const logoUrl = computed(() => {
         <div id="home" class="landing-wrapper overflow-hidden">
             <div class="py-4 px-4 mx-0 md:mx-6 lg:mx-8 lg:px-8 flex align-items-center justify-content-between relative lg:static mb-3">
                 <a class="flex align-items-center" href="#/">
-                  <img :src="logoUrl" alt="Logo" height="50" class="mr-0 lg:mr-2" /><span class="text-900 font-medium text-2xl line-height-3 mr-8">NS</span> </a>
+                  <img :src="logoUrl" alt="Logo" height="50" class="mr-0 lg:mr-2" /><span class="text-900 font-medium text-2xl line-height-3 mr-8"></span> </a>
                 <a class="cursor-pointer block lg:hidden text-700 p-ripple" v-ripple v-styleclass="{ selector: '@next', enterClass: 'hidden', leaveToClass: 'hidden', hideOnOutsideClick: true }">
                     <i class="pi pi-bars text-4xl"></i>
                 </a>
@@ -70,18 +70,24 @@ const logoUrl = computed(() => {
             >
                 <div class="mx-4 md:mx-8 mt-0 md:mt-4">
                     <h1 class="text-6xl font-bold text-gray-900 line-height-2">
-                      <span class="font-light block">Eu sem integer</span>eget magna fermentum</h1>
+                      <span class="font-light block">
+<!--                        Eu sem integer-->
+                      </span>
+<!--                      eget magna fermentum-->
+                    </h1>
                     <p class="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">
-                      Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat...</p>
+                      Tikinti və təchizat sahəsində bir çox iri layihələrə imza atmış Ruzi1 bu gün yeni inkişaf mərhələsinə çıxıb.
+                    </p>
                   <p class="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">
-                    Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat...</p>
+                    Hazırda şirkət tikinti materiallarının satışı, havalandırma sistemlərinin satış və quraşdırılması, bacatəmizləmə xidmətlərinin göstərilməsi, metal işləmə xidmətləri, ekoloji tikinti materiallarının satışı və ilə məşğuldur.
+                  </p>
                   <p class="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">
-                    Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat...</p>
+                    Ruzi1-in təqdim etdiyi məhsulların yüksək standartlara cavab verməsi, xidmətələrin operativliyi və mütəhərrik qiymət siyasəti onları yerli bazarda aktual edir.
+                  </p>
                   <p class="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">
-                    Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat...</p>
-                  <p class="font-normal text-2xl line-height-3 md:mt-3 text-gray-700">
-                    Sed blandit libero volutpat sed cras. Fames ac turpis egestas integer. Placerat in egestas erat...</p>
-<!--                    <Button label="Get Started" class="p-button-rounded text-xl border-none mt-5 bg-blue-500 font-normal text-white line-height-3 px-3"></Button>-->
+                    Ruzi1-lə əməkdaşlıq – keyfiyyətli yüksəliş deməkdir!
+                  </p>
+<!--                  <Button label="Get Started" class="p-button-rounded text-xl border-none mt-5 bg-blue-500 font-normal text-white line-height-3 px-3"></Button>-->
 
                 </div>
               <div class="flex justify-content-center md:justify-content-end">
@@ -92,8 +98,10 @@ const logoUrl = computed(() => {
             <div id="features" class="py-4 px-4 lg:px-8 mt-5 mx-0 lg:mx-8">
                 <div class="grid justify-content-center">
                     <div class="col-12 text-center mt-8 mb-4">
-                        <h2 class="text-900 font-normal mb-2">Marvelous Features</h2>
-                        <span class="text-600 text-2xl">Placerat in egestas erat...</span>
+                        <h2 class="text-900 font-normal mb-2">Komandamız</h2>
+                        <span class="text-600 text-2xl">
+<!--                          Placerat in egestas erat...-->
+                        </span>
                     </div>
 
                     <div class="col-12 md:col-12 lg:col-4 p-0 lg:pr-5 lg:pb-5 mt-4 lg:mt-0">
@@ -199,9 +207,7 @@ const logoUrl = computed(() => {
                     </div>
 
                     <div class="col-12 md:col-12 lg:col-4 p-0 lg:pr-5 mt-4 lg:mt-0">
-                        <div
-                            style="height: 160px; padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(145, 210, 204, 0.2), rgba(212, 162, 221, 0.2)), linear-gradient(180deg, rgba(251, 199, 145, 0.2), rgba(160, 210, 250, 0.2))"
-                        >
+                        <div style="height: 160px; padding: 2px; border-radius: 10px; background: linear-gradient(90deg, rgba(145, 210, 204, 0.2), rgba(212, 162, 221, 0.2)), linear-gradient(180deg, rgba(251, 199, 145, 0.2), rgba(160, 210, 250, 0.2))">
                             <div class="p-3 surface-card h-full" style="border-radius: 8px">
                                 <div class="flex align-items-center justify-content-center bg-blue-200 mb-3" style="width: 3.5rem; height: 3.5rem; border-radius: 10px">
                                     <i class="pi pi-fw pi-globe text-2xl text-blue-700"></i>
@@ -314,15 +320,15 @@ const logoUrl = computed(() => {
 
             <div id="pricing" class="py-4 px-4 lg:px-8 my-2 md:my-4">
                 <div class="text-center">
-                    <h2 class="text-900 font-normal mb-2">Matchless Pricing</h2>
-                    <span class="text-600 text-2xl">Amet consectetur adipiscing elit...</span>
+                    <h2 class="text-900 font-normal mb-2">Bizim təkliflərimiz</h2>
+<!--                    <span class="text-600 text-2xl">Amet consectetur adipiscing elit...</span>-->
                 </div>
 
                 <div class="grid justify-content-between mt-8 md:mt-0">
                     <div class="col-12 lg:col-4 p-0 md:p-3">
                         <div class="p-3 flex flex-column border-200 pricing-card cursor-pointer border-2 hover:border-primary transition-duration-300 transition-all" style="border-radius: 10px">
-                            <h3 class="text-900 text-center my-5">Free</h3>
-                            <img src="/demo/images/landing/free.svg" class="w-10 h-10 mx-auto" alt="free" />
+                            <h3 class="text-900 text-center my-5">HAVALANDIRMA SİSTEMLƏRİ</h3>
+                            <img src="/demo/images/landing/teklif/img_hava_sis.png" class="w-10 h-10 mx-auto" alt="free" />
                             <div class="my-5 text-center">
                                 <span class="text-5xl font-bold mr-2 text-900">$0</span>
                                 <span class="text-600">per month</span>
@@ -330,30 +336,42 @@ const logoUrl = computed(() => {
                             </div>
                             <Divider class="w-full bg-surface-200"></Divider>
                             <ul class="my-5 list-none p-0 flex text-900 flex-column">
+
+                              <li class="py-2">
+                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                                    <span class="text-xl line-height-3">
+                                      Ruzi1-in təqdim etdiyi isitmə, soyutma və havalandırma avadanlıqları beynəlxalq keyfiyyət standartlarına dayanaraq, peşəkar mühəndis və texniklərimiz tərəfindən quraşdırılır.
+                                    </span>
+                                </li>
+                              <li class="py-2">
+                                <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                                <span class="text-xl line-height-3">
+                                   Geniş məhsul çeşidinə malik Ruzi1 müxtəlif növ aspiratorlar, istilik bərpa qurğuları, mənfəzlər, diffuzorlar, xüsusi diffuzorlar, spiral diffuzorlar, açıq hava panjurları, damperler, VAV&CAV terminal blokları, səsboğucular və döşəmə konvektorları təklif edir.
+                                </span>
+                              </li>
                                 <li class="py-2">
                                     <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Responsive Layout</span>
+                                    <span class="text-xl line-height-3">
+                                      Onu da vurğulayaq ki, məhsullarımız  ISO 9001, CE, TSEK, TÜV sertifikatları kimi bir çox keyfiyyət sertifikatlarına malikdir.
+                                    </span>
                                 </li>
-                                <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Unlimited Push Messages</span>
-                                </li>
-                                <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">50 Support Ticket</span>
-                                </li>
-                                <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Free Shipping</span>
-                                </li>
+<!--                                <li class="py-2">-->
+<!--                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>-->
+<!--                                    <span class="text-xl line-height-3">50 Support Ticket</span>-->
+<!--                                </li>-->
+<!--                                <li class="py-2">-->
+<!--                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>-->
+<!--                                    <span class="text-xl line-height-3">Free Shipping</span>-->
+<!--                                </li>-->
                             </ul>
                         </div>
                     </div>
 
                     <div class="col-12 lg:col-4 p-0 md:p-3 mt-4 md:mt-0">
-                        <div class="p-3 flex flex-column border-200 pricing-card cursor-pointer border-2 hover:border-primary transition-duration-300 transition-all" style="border-radius: 10px">
-                            <h3 class="text-900 text-center my-5">Startup</h3>
-                            <img src="/demo/images/landing/startup.svg" class="w-10 h-10 mx-auto" alt="startup" />
+                        <div class="p-3 flex flex-column border-200 pricing-card cursor-pointer border-2 hover:border-primary transition-duration-300 transition-all"
+                             style="border-radius: 10px;">
+                            <h3 class="text-900 text-center my-5">TİKİNTİ MATERİALLARI</h3>
+                            <img src="/demo/images/landing/teklif/img_tik_mat.png" class="w-10 h-10 mx-auto" alt="startup" />
                             <div class="my-5 text-center">
                                 <span class="text-5xl font-bold mr-2 text-900">$1</span>
                                 <span class="text-600">per month</span>
@@ -363,28 +381,41 @@ const logoUrl = computed(() => {
                             <ul class="my-5 list-none p-0 flex text-900 flex-column">
                                 <li class="py-2">
                                     <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Responsive Layout</span>
+                                    <span class="text-xl line-height-3">İnşaat materialları sahəsində genişfəaliyyət göstərən Ruzi 1  qum , otsep, şeben, sement və s. kimi inşaat materialları təklif edir. </span>
                                 </li>
                                 <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Unlimited Push Messages</span>
+                                  <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                                  <span class="text-xl line-height-3">
+                                      Qeyd edək ki, bütün məhsullarımız laboratoriyadan kefiyyət nişanına malikdir.
+                                  </span>
                                 </li>
-                                <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">50 Support Ticket</span>
-                                </li>
-                                <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Free Shipping</span>
-                                </li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+                              <li class="py-2"></li>
+
+
+
+
                             </ul>
                         </div>
                     </div>
 
                     <div class="col-12 lg:col-4 p-0 md:p-3 mt-4 md:mt-0">
                         <div class="p-3 flex flex-column border-200 pricing-card cursor-pointer border-2 hover:border-primary transition-duration-300 transition-all" style="border-radius: 10px">
-                            <h3 class="text-900 text-center my-5">Enterprise</h3>
-                            <img src="/demo/images/landing/enterprise.svg" class="w-10 h-10 mx-auto" alt="enterprise" />
+                            <h3 class="text-900 text-center my-5">BACALARIN TƏMİZLƏNMƏSİ</h3>
+                            <img src="/demo/images/landing/teklif/img_baca_temiz.png" class="w-10 h-10 mx-auto" alt="enterprise" />
                             <div class="my-5 text-center">
                                 <span class="text-5xl font-bold mr-2 text-900">$999</span>
                                 <span class="text-600">per month</span>
@@ -394,27 +425,172 @@ const logoUrl = computed(() => {
                             <ul class="my-5 list-none p-0 flex text-900 flex-column">
                                 <li class="py-2">
                                     <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Responsive Layout</span>
+                                    <span class="text-xl line-height-3">
+                                      Ruzi 1 bacatəmizləmə xidmətlərini yüksək səviyyədə həyata keçirir.
+                                    </span>
                                 </li>
                                 <li class="py-2">
                                     <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Unlimited Push Messages</span>
+                                    <span class="text-xl line-height-3">
+                                      Daimi istismara məruz qalan havalandırma sistemləri vaxtaşırı təmizlənmədikdə bir çox fəsadlara yol açıla bilər.
+                                    </span>
                                 </li>
                                 <li class="py-2">
                                     <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">50 Support Ticket</span>
+                                    <span class="text-xl line-height-3">
+                                      Şirkətimizin mütəxəssisləri yaşayış evləri, restoran, universitet, idman komplekskləri və s. məkanlarda bacatəmizləmə xidmətlərinin münasib şərtrlərlə və operativ şəkildə yerinə yetirib ixtiyarınıza verəcəkdir.
+                                    </span>
                                 </li>
-                                <li class="py-2">
-                                    <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
-                                    <span class="text-xl line-height-3">Free Shipping</span>
-                                </li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+                                <li class="py-2"></li>
+
                             </ul>
                         </div>
                     </div>
                 </div>
+
+              <div class="grid justify-content-between mt-8 md:mt-0">
+                <div class="col-12 lg:col-4 p-0 md:p-3">
+                  <div class="p-3 flex flex-column border-200 pricing-card cursor-pointer border-2 hover:border-primary transition-duration-300 transition-all" style="border-radius: 10px">
+                    <h3 class="text-900 text-center my-5">METAL İŞLƏMƏLƏR</h3>
+                    <img src="/demo/images/landing/teklif/img_metal_isleme.png" class="w-10 h-10 mx-auto" alt="free" />
+                    <div class="my-5 text-center">
+                      <span class="text-5xl font-bold mr-2 text-900">$0</span>
+                      <span class="text-600">per month</span>
+                      <Button label="Get Started" class="block mx-auto mt-4 p-button-rounded border-none ml-3 font-light line-height-2 bg-blue-500 text-white"></Button>
+                    </div>
+                    <Divider class="w-full bg-surface-200"></Divider>
+                    <ul class="my-5 list-none p-0 flex text-900 flex-column">
+
+                      <li class="py-2">
+                        <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                        <span class="text-xl line-height-3">
+                                   Metal işləmələr vasitəsilə həm interyer, həm də eksteryer dizaynı çox aktualdır.
+                        </span>
+                      </li>
+                      <li class="py-2">
+                        <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                        <span class="text-xl line-height-3">
+                                  Ruzi 1-in təcrübəli mütəxəssisləri müştərilərin istəyinə uyğun olaraq müxtəlif konseptli və müxtəlif miqyaslı işləi yüksəsk peşəkarlıqla görürlər.
+                                </span>
+                      </li>
+                      <li class="py-2">
+                        <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                        <span class="text-xl line-height-3">
+                          Buraya estetik və ya funksional istəyə görə hazırlanan reproduksiya tipli xüsusi işlər, əlvan metal üzərində döymə-oyma işləri, paslanmaz metaldan hazırlanan işlər və s. aid etmək olar.
+                                    </span>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-12 lg:col-4 p-0 md:p-3 mt-4 md:mt-0">
+                  <div class="p-3 flex flex-column border-200 pricing-card cursor-pointer border-2 hover:border-primary transition-duration-300 transition-all"
+                       style="border-radius: 10px;">
+                    <h3 class="text-900 text-center my-5">EKO-EVLƏR</h3>
+                    <img src="/demo/images/landing/teklif/img_tik_mat.png" class="w-10 h-10 mx-auto" alt="startup" />
+                    <div class="my-5 text-center">
+                      <span class="text-5xl font-bold mr-2 text-900">$1</span>
+                      <span class="text-600">per month</span>
+                      <Button label="Try Free" class="block mx-auto mt-4 p-button-rounded border-none ml-3 font-light line-height-2 bg-blue-500 text-white"></Button>
+                    </div>
+                    <Divider class="w-full bg-surface-200"></Divider>
+                    <ul class="my-5 list-none p-0 flex text-900 flex-column">
+                      <li class="py-2">
+                        <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                        <span class="text-xl line-height-3">
+                         Şirkətimizin daha bir fəaliyyət dairəsinə eko-evlərin tikintisi də aiddir.
+                          Ekologiyanın qlobal korlanması dövründə eko-evlərin aktuallığı haqda geniş danışmağa ehtiyac yoxdur.
+                          Amma yenə də qısa xatırlatma edək.
+
+                        </span>
+                      </li>
+                      <li class="py-2">
+                        <i class="pi pi-fw pi-check text-xl text-cyan-500 mr-2"></i>
+                        <span class="text-xl line-height-3">
+                             Beləliklə, eko-evlərin üstünlükləri:.
+                    - Ekoloji təmizliyi qoruyur;
+                    - Temperaturu sabit saxlayır;
+                    -  İstifadə müddəti qeyri-məhduddur;
+                    - Seysmik müqaviməti oxşar daş evlərdən 2 dəfə çoxdur;
+                    Odadavamlıdır;
+                    Daş analoqlu evdən 40% ucuz başa gəlir;
+                    Layihə qısa müddətə başa gəlir.
+                    Ekoloji təmiz yaşayın – çox yaşayın.
+                        </span>
+                      </li>
+                      <li class="py-2"></li>
+                      <li class="py-2"></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-12 lg:col-4 p-0 md:p-3 mt-4 md:mt-0">
+
+                </div>
+
+              </div>
             </div>
 
+          <div class="py-4 px-4 mx-0 mt-8 lg:mx-8">
+            <div class="grid justify-content-between">
+<!--              <div class="col-12 md:col-2" style="margin-top: -1.5rem">-->
+<!--                <a @click="smoothScroll('#home')" class="flex flex-wrap align-items-center justify-content-center md:justify-content-start md:mb-0 mb-3 cursor-pointer">-->
+<!--                  <img :src="logoUrl" alt="footer sections" width="50" height="50" class="mr-2" />-->
+<!--                  <h4 class="font-medium text-3xl text-900">RUZI NS</h4>-->
+<!--                </a>-->
+<!--              </div>-->
 
+              <div class="col-12 md:col-10 lg:col-7">
+                <div class="grid text-center md:text-left">
+                  <div class="col-12 md:col-3">
+                    <h4 class="font-medium text-2xl line-height-31 mb-3 text-900">
+                      Əlaqə:
+                    </h4>
+                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">
+                      +99455 2178333
+                      +99455 42312 11
+                    </a>
+                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">
+                      info@ruzi1.com
+                    </a>
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Investor Relations</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Careers</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer text-700">Media Kit</a>-->
+                  </div>
+
+<!--                  <div class="col-12 md:col-3 mt-4 md:mt-0">-->
+<!--                    <h4 class="font-medium text-2xl line-height-3 mb-3 text-900">Resources</h4>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Get Started</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Learn</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer text-700">Case Studies</a>-->
+<!--                  </div>-->
+
+<!--                  <div class="col-12 md:col-3 mt-4 md:mt-0">-->
+<!--                    <h4 class="font-medium text-2xl line-height-3 mb-3 text-900">Community</h4>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Discord</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Events<img src="/demo/images/landing/new-badge.svg" class="ml-2" /></a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">FAQ</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer text-700">Blog</a>-->
+<!--                  </div>-->
+
+<!--                  <div class="col-12 md:col-3 mt-4 md:mt-0">-->
+<!--                    <h4 class="font-medium text-2xl line-height-3 mb-3 text-900">Legal</h4>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Brand Policy</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer mb-2 text-700">Privacy Policy</a>-->
+<!--                    <a class="line-height-3 text-xl block cursor-pointer text-700">Terms of Service</a>-->
+<!--                  </div>-->
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
     <AppConfig simple />

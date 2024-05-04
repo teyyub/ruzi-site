@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest #os
     env:
       ENV_NAME: Test ENV
+
     steps:
     - name: Print host name
       run: echo "Host $ENV_NAME"
@@ -32,10 +33,10 @@ jobs:
     - name: Build Docker image
       run: |
          docker build -t teyyub392/ruzi-site:latest .
-        
-        # Log in to Docker Hub
-    - name: Prinding docker username
+
+    - name: Printing docker username
       run: echo "$secrets.DOCKER_USERNAME"
+      # Log in to Docker Hub
     - name: Log in to Docker Hub
 #      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
       run: echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
