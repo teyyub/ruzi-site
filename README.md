@@ -41,6 +41,8 @@ pm2 stop my-site
 
 
 
+
+
 # Restart the app
 pm2 restart my-app
 
