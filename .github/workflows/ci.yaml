@@ -50,8 +50,8 @@ jobs:
         host: ${{ secrets.SERVER_HOST }}
         username: ${{ secrets.SERVER_USERNAME }}
         password: ${{ secrets.SERVER_PASSWORD }}
-        script: |
-          docker stop vue-app || true
-          docker rm vue-app || true
-          docker pull your_docker_username/vue-app:latest
-          docker run -d -p 80:80 --name vue-app your_docker_username/vue-app:latest
+#        script: |
+#          docker stop vue-app || true
+#          docker rm vue-app || true
+#          docker pull your_docker_username/vue-app:latest
+#          docker run -d -p 80:80 --name vue-app your_docker_username/vue-app:latest
