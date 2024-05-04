@@ -29,6 +29,8 @@ jobs:
       run: npm install
     - name: npm build
       run: npm build --if-present
+    - name: mp2 install
+      run: npm install -g pm2
         # Build Docker image
     - name: Build Docker image
       run: |
