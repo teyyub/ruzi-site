@@ -54,4 +54,4 @@ jobs:
           docker stop ruzi-site || true
           docker rm ruzi-site || true
           docker pull teyyub392/ruzi-site:latest
-          docker run -d -p 8087:8087 --name ruzi-site teyyub392/ruzi-site:latest
+          docker run -d -p 8087:5173 --name ruzi-site teyyub392/ruzi-site:latest
